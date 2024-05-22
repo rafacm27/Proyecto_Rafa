@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #666666;
+    background: #f2f2f2;
+    font-size: 1em;
+    line-height: 1.6em;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+}
+
+#main-header {
+    background: #0c2864;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+#main-header a {
+    color: white;
+    text-decoration: none;
+}
+
+#logo-header {
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+#logo-header:hover {
+    color: #1379d8;
+}
+
+#logo-header .site-name {
+    display: block;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#logo-header .site-desc {
+    display: block;
+    font-weight: 300;
+    font-size: 0.8em;
+    color: #999;
+}
+.boton {
+    background-color: #0c2864;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 5px;
+    margin-left: auto;
+}
+.boton :hover {
+    background-color: #1379d8;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.1em;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    background: #1379d8;
+}
+
+#contacto {
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #0c2864;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background: #0c2864;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1379d8;
+}
+
+#main-footer {
+    background: #1379d8;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+#main-footer a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block; 
+}
+.button {
+    background-color: #0c2864;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.social-logos {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.social-logos a {
+    margin-right: 10px;
+}
+
+
+.social-logos a button {
+    background-color: #0c2864;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    #main-header {
+        padding: 10px 0;
+    }
+
+    nav ul {
+        display: block;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0 auto;
+    }
+
+    nav ul li:last-child {
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        padding: 8px 12px;
+    }
+
+    #contacto {
+        width: 95%;
+        padding: 10px;
+    }
+}
